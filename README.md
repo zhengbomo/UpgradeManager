@@ -22,7 +22,7 @@
 
 ### Using Cocoapods
 ```
-pod 'AsyncSwift', '~> 2.0.4'
+pod 'UpgradeManager', '~> 1.0'
 ```
 
 ### Using Carthage
