@@ -1,14 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = "UpgradeManager"
-  s.version      = "0.1"
-  s.summary      = ""
+  s.version      = "1.0.0"
+  s.summary      = "data progress when upgrade app"
   s.description  = <<-DESC
     data progress when upgrade app, like add column in database, data migration, data initialize
   DESC
   s.homepage     = "https://github.com/zhengbomo/UpgradeManager"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "bomo" => "zhengbomo@hotmail.com" }
-  s.social_media_url   = ""
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.9"
   s.watchos.deployment_target = "2.0"
