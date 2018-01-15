@@ -18,7 +18,19 @@
 
 
 ## 使用
-1. 在应用启动（`application:willFinishLaunchingWithOptions:`）的时候执行
+1. 使用  
+
+### Using Cocoapods
+```
+pod 'AsyncSwift', '~> 2.0.4'
+```
+
+### Using Carthage
+```
+github "zhengbomo/UpgradeManager"
+```
+
+2. 在应用启动（`application:willFinishLaunchingWithOptions:`）的时候执行
 ```swift
 // 版本号按从小到大顺序
 let versions: [VersionProtocol] = [
@@ -35,7 +47,7 @@ UpgradeManager.shared.upgrade()
 ```
 versions随着版本迭代逐渐增多
 
-2. Version的定义
+3. Version的定义
 ```objc
 import UpgradeManager
 
