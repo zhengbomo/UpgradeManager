@@ -18,8 +18,6 @@
 
 
 ## 使用
-1. 使用  
-
 ### Using Cocoapods
 ```
 pod 'UpgradeManager', '~> 1.0'
@@ -30,7 +28,7 @@ pod 'UpgradeManager', '~> 1.0'
 github "zhengbomo/UpgradeManager"
 ```
 
-2. 在应用启动（`application:willFinishLaunchingWithOptions:`）的时候执行
+1. 在应用启动（`application:willFinishLaunchingWithOptions:`）的时候执行
 ```swift
 // 版本号按从小到大顺序
 let versions: [VersionProtocol] = [
@@ -47,8 +45,8 @@ UpgradeManager.shared.upgrade()
 ```
 versions随着版本迭代逐渐增多
 
-3. Version的定义
-```objc
+2. Version的定义
+```swift
 import UpgradeManager
 
 class AddNameColumnVersion: VersionProtocol {
